@@ -22,7 +22,7 @@ body {
 =================================
 */
 .main-contend-section {
-	background-color: #f0f2f5;
+	background-color: #fff;
 	padding: 130px 0 184px 0;
 }
 
@@ -49,13 +49,12 @@ body {
 
 .main-contend-section .form-section {
 	width: 396px;
-	background-color: #ffffff;
 	padding: 16px 16px 0;
 	border-radius: 8px;
 	box-sizing: border-box;
 	margin-left: 90px;
 	margin-top: 2px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); */
 }
 
 .main-contend-section .form-section input[type="text"] {
@@ -134,20 +133,21 @@ body {
 }
 
 .main-contend-section .form-section a[class="create-new-acc"] {
-	background-color: #42b72a;
+	/* background-color: #42b72a; */
 	padding: 13px 6px 15px 6px;
 	width: 54%;
 	box-sizing: border-box;
-	border-radius: 6px;
+	border-radius: 4px;
 	font-size: 17px;
-	color: #ffffff;
-	font-weight: bold;
+	/* color: #ffffff; */
+	color: #000;
 	font-family: arial;
 	display: inline-block;
 	border: none;
 	text-decoration: none;
 	text-align: center;
 	margin: 26px 0 24px 83px;
+	border: 1px solid #000;
 }
 
 .main-contend-section .form-section a[class="create-new-acc"]:hover {
@@ -216,8 +216,9 @@ body {
 
 .footer-section .footer-container .language-section li {
 	display: inline;
+	width: 50%;
 	color: #737373;
-	margin-right: 8px;
+	text-align: center;
 }
 
 .footer-section .footer-container .language-section li > a {

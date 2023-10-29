@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
 	margin: 0;
 	font-family: verdana;
@@ -28,7 +33,7 @@ body {
 
 .main-container {
 	overflow: hidden;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -611,10 +616,14 @@ body {
 	.main-contend-section {
 		padding: 0 0 40px 0;
 	}
-
+	.main-contend-section .logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	.main-contend-section .logo img {
 		width: 210px;
-		margin-left: 70px;
+		margin: 0;
 	}
 
 	.main-contend-section .fb-tag-line h3 {
@@ -626,8 +635,8 @@ body {
 	}
 
 	.main-contend-section .form-section {
-		width: 320px;
-		margin-left: 10px;
+		width: 100%;
+		margin: 0;
 	}
 
 	.main-contend-section .form-section input[type="text"] {
